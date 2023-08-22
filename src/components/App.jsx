@@ -13,6 +13,7 @@ export class App extends Component{
   }
 
   handleClick = state => {
+  
     this.setState(prevState => ({ [state]: prevState[state] + 1 }));
   };
          countTotalFeedback = () => {

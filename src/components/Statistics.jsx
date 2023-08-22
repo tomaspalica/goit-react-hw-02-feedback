@@ -1,6 +1,8 @@
+import css from '../css/Statistics.module.css'
+
 const Statistics = ({ good, neutral, bad, total, goodPrtge }) => {
     return (
-        <ul>
+        <ul className={css.statList}>
       <li>Good: {good}</li>
       <li>Neutral: {neutral}</li>
       <li>Bad: {bad}</li>
