@@ -1,4 +1,4 @@
-import { Feedback } from "./Feedback";
+
 import { Statistics } from "./Statistics";
 import React, { Component } from "react";
 import { FeedbackOptions } from "./Feedbackoptions";
