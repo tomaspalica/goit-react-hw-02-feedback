@@ -9,8 +9,8 @@ class Feedback extends Component{
       }
 
       hendleClick =  (evt) =>{
- const {name,value,key} = evt.target;
- this.setState({[name]: this.state[name] += 1})
+ const {name,key} = evt.target;
+ this.setState({[name]: this.state[name] + 1})
  console.log(key)
       }
       countTotalFeedback = () => {
